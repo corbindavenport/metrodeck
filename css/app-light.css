@@ -231,7 +231,7 @@ a {
 	border-bottom: 0px !important;
 }
 
-.js-account-manager-container .account-link, .js-account-manager-container .txt-r-dark-gray, .js-account-manager-container .txt-r-text-link, .js-account-manager-container .link-complex-target, .js-account-manager-container .obj-left .icon, .js-account-manager-container .drawer-header .icon, .txt-sub-antialiased, .column-nav-link:after {
+.js-account-manager-container .account-link, .js-account-manager-container .txt-r-dark-gray, .js-account-manager-container .txt-r-text-link, .js-account-manager-container .link-complex-target, .js-account-manager-container .obj-left .icon, .js-account-manager-container .drawer-header .icon, .js-column-nav-menu-item .txt-sub-antialiased, .column-nav-link:after {
 	color: #FFFFFF !important;
 }
 
@@ -292,4 +292,12 @@ input[type=text]:focus, select:focus {
 
 .mdl-links:nth-child(3):after {
   content: '| MetroDeck 1.0';
+}
+
+.spinner-small {
+	background: transparent url("chrome-extension://__MSG_@@extension_id__/img/spinner-small-light.gif") no-repeat !important;
+}
+
+.spinner-button-icon-spinner {
+  background-image: url("chrome-extension://__MSG_@@extension_id__/img/button-spinner.gif") !important;
 }
