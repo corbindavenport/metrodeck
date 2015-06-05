@@ -1,0 +1,10 @@
+{
+  "name": "metrodeck",
+  "title": "Metrodeck",
+  "id": "jid1-dy5tLffLzwZy3g",
+  "description": "MetroDeck enhances TweetDeck with the Metro UI and other improvements.",
+  "author": "Corbin Davenport",
+  "license": "MPL 2.0",
+  "version": "1.1",
+  "icon": "data/img/icon48.png"
+}
