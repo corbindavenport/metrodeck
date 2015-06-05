@@ -1,11 +1,7 @@
-var extensionid;
-
-chrome.runtime.sendMessage({method: "getLocalStorage", key: "extensionid"}, function(response) {
-	extensionid = response.data;
-});
+var extensionid = self.options.extensionid;
 
 $(document).ready(function(){
-	console.log("Starting MetroDeck " + chrome.runtime.getManifest().version + ".");
+
 	console.log("MetroDeck extension ID is reported as " + extensionid);
 
 	// Change title and icon
@@ -26,5 +22,5 @@ $(document).ready(function(){
 });
 
 $(document).ajaxStop(function () {
-	console.log("MetroDeck " + chrome.runtime.getManifest().version + " loaded.");
+
 });
