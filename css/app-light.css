@@ -1,6 +1,6 @@
 /* TweetDeck 3.9.636-e705a72 CSS */
 
-@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-light.15e19ea66c.css");
+@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-light.4d1037ef3a.css");
 
 /* MetroDeck CSS */
 
@@ -43,6 +43,27 @@ body {
 
 a {
 	color: #00A9DA;
+}
+
+.needs-scroll-bottom-offset.scroll-styled-h {
+	bottom: 0px !important;
+}
+
+.scroll-styled-h::-webkit-scrollbar {
+	height: 15px !important;
+}
+
+.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {
+	background-color: #cdcdcd !important;
+	border-radius: 0px !important;
+}
+
+.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {
+	border-left: 0px !important;
+}
+
+.app-columns-container {
+	background-color: #f0f0f0 !important;
 }
 
 /* Sidebar */
@@ -170,7 +191,7 @@ a {
 }
 
 .toggle-switch-input:checked+.toggle-switch-label:before {
-	background-color: #008287 !important;
+	background-color: #00A9DA !important;
 }
 
 .toggle-switch-input:checked+.toggle-switch-label:after {
@@ -291,7 +312,7 @@ input[type=text]:focus, select:focus {
 }
 
 .mdl-links:nth-child(3):after {
-  content: '| MetroDeck 1.0';
+  content: '| MetroDeck 1.2';
 }
 
 .spinner-small {
@@ -299,5 +320,5 @@ input[type=text]:focus, select:focus {
 }
 
 .spinner-button-icon-spinner {
-  background-image: url("chrome-extension://__MSG_@@extension_id__/img/button-spinner.gif") !important;
+	background-image: url("chrome-extension://__MSG_@@extension_id__/img/button-spinner.gif") !important;
 }
