@@ -9,6 +9,11 @@ I've designed MetroDeck in a way that shouldn't break with future TweetDeck upda
 __TweetDeck is a trademark of Twitter, inc. MetroDeck is not affiliated with Twitter in any way. Due to a Chrome limitation, this does not work with the TweetDeck app for Chrome. Please use the web version (tweetdeck.twitter.com) instead.__
 
 ---------------------------------------------------------
+__New in MetroDeck 1.3:__
+* Updated to support TweetDeck 3.9.798-f9da451
+* Improved console messages
+* Overall improvements to codebase
+
 __New in MetroDeck 1.2:__
 * Scrollbars now follow Metro UI design
 * Fixed bug where TweetDeck's new 'New Tweets' indicator was broken

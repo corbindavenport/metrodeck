@@ -1,15 +1,16 @@
-/* TweetDeck 3.9.636-e705a72 CSS */
+/*
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-dark.da1b7bfa10.css");
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
+*/
+
+/* TweetDeck 3.9.798-f9da451 CSS */
+
+@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-dark.1db1925fe6.css");
 
 /* MetroDeck CSS */
-
-@font-face {
-	font-family: 'Segoe';
-	src: url('chrome-extension://__MSG_@@extension_id__/font/segoe-ui-webfont.woff') format('woff'),
-		url('chrome-extension://__MSG_@@extension_id__/font/segoe-ui-webfont.ttf')  format('truetype'),
-		url('chrome-extension://__MSG_@@extension_id__/font/segoe-ui-webfont.svg') format('svg');
-}
 
 body {
 	font-family: 'Segoe' !important;
@@ -270,6 +271,10 @@ a[data-action='setAccountSafeguard'] .nbfc p {
 
 /* Misc */
 
+.metroalert {
+	background-color: #1d1d1d !important;
+}
+
 input[type=text] {
 	-moz-appearance: none !important;
 	-webkit-appearance: none !important;
@@ -311,10 +316,6 @@ input[type=text]:focus, select:focus {
 
 .divider-bar {
 	background-color: none !important;
-}
-
-.mdl-links:nth-child(3):after {
-  content: '| MetroDeck 1.2';
 }
 
 .spinner-small {
