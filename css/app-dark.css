@@ -12,6 +12,13 @@ You should have received a copy of the GNU General Public License along with thi
 
 /* MetroDeck CSS */
 
+@font-face {
+	font-family: 'Segoe';
+	src: url('chrome-extension://__MSG_@@extension_id__/fonts/segoe-ui-webfont.woff') format('woff'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/segoe-ui-webfont.ttf')  format('truetype'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/segoe-ui-webfont.svg') format('svg');
+}
+
 body {
 	font-family: 'Segoe' !important;
 	color: #999;
