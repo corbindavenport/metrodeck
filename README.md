@@ -9,6 +9,11 @@ I've designed MetroDeck in a way that shouldn't break with future TweetDeck upda
 __TweetDeck is a trademark of Twitter, inc. MetroDeck is not affiliated with Twitter in any way. Due to a Chrome limitation, this does not work with the TweetDeck app for Chrome. Please use the web version (tweetdeck.twitter.com) instead.__
 
 ---------------------------------------------------------
+__New in MetroDeck 1.4:__
+* Updated to support TweetDeck 3.9.837-8abeadb
+* Adjusted colors to better match Metro color scheme
+* Fixed problem where welcome screen wouldn't load
+
 __New in MetroDeck 1.3.1:__
 * Fixed bug where fonts would not load
 

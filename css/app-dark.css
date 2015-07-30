@@ -6,9 +6,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 */
 
-/* TweetDeck 3.9.798-f9da451 CSS */
+/* TweetDeck 3.9.837-8abeadb CSS */
 
-@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-dark.1db1925fe6.css");
+@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-dark.5df91c9f71.css");
 
 /* MetroDeck CSS */
 
@@ -79,6 +79,10 @@ a {
 .app-header, .app-navigator, .column-nav-item, .app-search-fake, .column-nav-link, .app-nav-link, .app-nav-tab {
 	background-color: #1d1d1d !important;
 	color: #FFFFFF !important;
+}
+
+.app-navigator {
+	bottom: 0px !important;
 }
 
 .app-search-fake {
@@ -180,6 +184,14 @@ a {
 
 .mdl-column-med {
 	background-color: #1d1d1d !important;
+}
+
+.mdl-header-title {
+	color: #FFFFFF !important;
+	text-transform: lowercase !important;
+	padding-left: 25px;
+	font-size: 20px;
+	font-weight: normal !important;
 }
 
 .list-account {
@@ -331,4 +343,16 @@ input[type=text]:focus, select:focus {
 
 .spinner-button-icon-spinner {
 	background-image: url("chrome-extension://__MSG_@@extension_id__/img/button-spinner.gif") !important;
+}
+
+.txt-r-medium-green {
+	color: #00a300 !important;
+}
+
+.txt-r-deep-yellow {
+	color: #ffc40d !important;
+}
+
+.icon-follow-color {
+	color: #00A9DA !important;
 }

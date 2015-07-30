@@ -28,7 +28,7 @@ $(document).ready(function(){
 	// Change title and icon
 	document.title = 'MetroDeck';
 	$('link[rel="shortcut icon"]').remove();
-	$('head').append( '<link rel="shortcut icon" href="' + extensionid + 'img/icon32.png">' );
+	$('head').append( '<link rel="shortcut icon" href="' + extensionid + 'img/icon48.png">' );
 	console.log("[MetroDeck] Changed page title and icon.");
 
 	// Apply custom CSS stylesheets

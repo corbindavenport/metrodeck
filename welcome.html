@@ -8,27 +8,21 @@
 	<link href="css/metro-icons.min.css" rel="stylesheet">
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/metro.min.js"></script>
-	<style>
-		body,html {height: auto !important;}
-		#bitcoin {padding: 10px;}
-	</style>
-	<script>
-	function showDialog(id){
-		var dialog = $(id).data('dialog');
-		dialog.open();
-	}
+	<script src="js/welcome.js"></script>
 	</script>
 </head>
 <body>
-<div data-role="dialog" data-close-button="true" id="bitcoin">
-<p>Please send bitcoin to this address:</p>
-<p align="center"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAAABmJLR0QA/wD/AP+gvaeTAAAEB0lEQVR4nO3dQW7bMBRAwbjo/a+c7iOjIAg+UnJm1rWcpg8EfiWRr+/v7y9Y7c/pH4DPJCwSwiIhLBLCIiEsEsIiISwSwiIhLBLCIiEsEn8H/9zr9Up/jv+73im//jyr/sycJ155zuBTC1YsEsIiISwSwiIhLBKjU+FV90zzyNQzNyvNzVMjf9O5n3mVs/8Wb1mxSAiLhLBICIuEsEjMT4VX3cx19rvmrPp7PfT3Y8UiISwSwiIhLBLCIrFyKnyiVU+ZrpqnPmZXKSsWCWGREBYJYZEQFonPmQpXPec5913H783djRWLhLBICIuEsEgIi8TKqfBuz2euej+x2+9l1fOiV8fnTSsWCWGREBYJYZEQFon5qfDsTphz89TOvUy7P3N19t/iLSsWCWGREBYJYZEQFonRqfD4vacfzt6XnNvv9Fc9d2rFIiEsEsIiISwSwiKx+7zCuTtfO++pdU91ztl593DV7/nLikVEWCSERUJYJIRF4jU98qyaVs5+aue0e7Xzyc/Npy5asUgIi4SwSAiLhLBInN+DdG4y2vmpbp5adQpGN11O/6eBFYuEsEgIi4SwSAiLxMp7hVc7n73c+fN0u5uu+q45C5+etWKREBYJYZEQFglhkZi/V/jE8wGvuqdMV1155xkcC1mxSAiLhLBICIuEsEi0T5Au3L0k+vbPuPLc7zCdE61YJIRFQlgkhEVCWCRWnlfY3WW7OnuK/dx15oxceef7knab4SRhkRAWCWGREBaJ0fcKu5MORj414uxOMiNXPrv/6pWpkOcRFglhkRAWCWGRmN9tpvPEsxHvdsbEHLvNcHfCIiEsEsIiISwSz9iDdOezoKu+fe46I1bNre4V8jzCIiEsEsIiISwSo+8V7nyOcW7G2TkDrrLqnuPOHXsGWbFICIuEsEgIi4SwSKx8gvRuJxhenT0tYtWU6hR7fi9hkRAWCWGREBaJdg/SkU+NWDVL3m0m3XmdbiZ9y4pFQlgkhEVCWCSEReKOu82M2Hnu4ci3z3niu5CmQk4SFglhkRAWCWGRaE+mWGXzfa6J69z/vcsRCydrKxYJYZEQFglhkRAWifknSHeejzCne/9u7jo732pc9alpViwSwiIhLBLCIiEsEvNT4dXZ+1N3e9vu7AS66jp2m+FehEVCWCSERUJYJFZOhTt1c1l3rt/caRpnzyL0XiH3IiwSwiIhLBLCIvHUqfDq7GS06g3BETun3WlWLBLCIiEsEsIiISwSK6fCh25n+kN6B23iyiOfuupm5EFWLBLCIiEsEsIiISwSK88rPGvnzi1zut/YyJXdK+QTCIuEsEgIi4SwSDz1vEJuzopFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJP4BuqIauoKd/S4AAAAASUVORK5CYII=" /></p>
-<p style="background-color: rgba(0,0,0,0.02); padding: 10px; border: 1px solid #eee; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;">1GSbhaUp8JSRepqQceHzrGhV1bPk9hcPuS</p>
-<span class="dialog-close-button"></span>
-</div>
-<div class="container page-content">
-	<h1>Welcome to MetroDeck</h1>
+<div class="container page-content" style="display:none">
+	<h1>Welcome to MetroDeck <span class="version"></span></h1>
 	<p>MetroDeck is an extension for Google Chrome and Opera that alters the appearance of TweetDeck to match Microsoft's Metro UI (also known as Modern/Universal UI). It works with both TweetDeck's light and dark themes.</p>
+	<b>What's new in MetroDeck 1.4:</b>
+	<p>
+		- Updated to support TweetDeck 3.9.837-8abeadb
+		<br />
+		- Adjusted colors to better match Metro color scheme
+		<br />
+		- Fixed problem where welcome screen wouldn't load
+	</p>
 	<b>What's new in MetroDeck 1.3.1:</b>
 	<p>- Fixed bug where fonts would not load</p>
 	<b>What's new in MetroDeck 1.3:</b>
@@ -40,12 +34,19 @@
 		- Overall improvements to codebase
 	</p>
 	<p>MetroDeck is licensed under the GPL v3 license, and it's code is available <a href="https://github.com/corbindavenport/metrodeck/" target="_blank">on GitHub</a>. You can also follow <a href="http://www.twitter.com/metrodeck" target="_blank">MetroDeck on Twitter</a> for updates.</p>
-	<h3>Get Started</h3>
-	<p>To use MetroDeck, simply open the TweetDeck web app in your browser. Please note that due to API limitations, MetroDeck does not work with the TweetDeck app for Google Chrome.</p>
-	<a href="https://tweetdeck.twitter.com" target="_blank" class="button">Open TweetDeck in new tab</a>
-	<h3>Donate</h3>
-	<p>If you enjoy MetroDeck, please consider donating. It helps us keep MetroDeck fully working with future TweetDeck updates.</p>
-	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4SZVSMJKDS35J&lc=US&item_name=MetroDeck%20Donation&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" target="_blank" class="button">Donate via PayPal</a><a href="javascript:showDialog('#bitcoin')" style="margin-left: 20px;" class="button">Donate via Bitcoin</a>
+	<div class="grid">
+		<div class="row cells2">
+			<div class="cell">
+				<h3>Get Started</h3>
+				<p>To use MetroDeck, simply open the TweetDeck web app in your browser. Please note that due to API limitations, MetroDeck does not work with the TweetDeck app for Google Chrome.</p>
+				<a href="https://tweetdeck.twitter.com" target="_blank" class="button">Open TweetDeck in new tab</a></div>
+			<div class="cell">
+				<h3>Donate</h3>
+				<p>If you enjoy MetroDeck, please consider donating. It helps us keep MetroDeck fully working with future TweetDeck updates.</p>
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4SZVSMJKDS35J&lc=US&item_name=MetroDeck%20Donation&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" target="_blank" class="button">Donate via PayPal</a>
+			</div>
+		</div>
+	</div>
 </div>
 </body>
 </html>
