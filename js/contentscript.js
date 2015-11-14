@@ -13,14 +13,6 @@ chrome.runtime.sendMessage({method: "getLocalStorage", key: "extensionid"}, func
 	extensionid = response.data;
 });
 
-function metroAlert(message) {
-	metroalert++;
-	$('body').append('<div class="metroalert" id="metroalert' + metroalert + '">' + message + '</div>');
-	setTimeout(function() {
-		$('#metroalert' + metroalert).fadeOut('slow');
-	}, 10000);
-}
-
 $(document).ready(function(){
 	console.log("[MetroDeck] Starting MetroDeck " + chrome.runtime.getManifest().version + ".");
 	console.log("[MetroDeck] Extension ID is reported as " + extensionid);
@@ -51,8 +43,4 @@ $(document).ready(function(){
 	// Disable animations
 	$.fx.off = true;
 
-});
-
-$(window).load(function(){
-	
 });

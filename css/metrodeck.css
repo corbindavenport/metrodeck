@@ -14,32 +14,5 @@ You should have received a copy of the GNU General Public License along with thi
 }
 
 .mdl-links:nth-child(3):after {
-  content: '| MetroDeck 1.4';
-}
-
-/* Updated sprites */
-
-.sprite {
-	background-image: url("chrome-extension://__MSG_@@extension_id__/img/td_sprite_sheet_1x.png") !important;
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-	.sprite {
-		background-image: url("chrome-extension://__MSG_@@extension_id__/img/td_sprite_sheet_2x.png");
-	}
-}
-
-/* Metro alerts */
-
-.metroalert {
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 40%;
-	padding: 10px;
-	z-index: 999;
-}
-
-.metroalert table {
-	width: 100%;
+  content: ' · MetroDeck 1.5';
 }

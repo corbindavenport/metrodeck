@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
 	"name": "MetroDeck",
-	"version": "1.4",
+	"version": "1.5",
 	"author": "Corbin Davenport",
 	"description": "MetroDeck enhances TweetDeck with the Metro UI and other improvements.",
 	"permissions": [

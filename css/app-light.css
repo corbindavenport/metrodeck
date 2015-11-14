@@ -6,9 +6,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 */
 
-/* TweetDeck 3.9.837-8abeadb CSS */
+/* TweetDeck 3.9.946-9cb51d4 CSS */
 
-@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-light.fcd108cb51.css");
+@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-light.d1b3b70268.css");
 
 /* MetroDeck CSS */
 
@@ -198,14 +198,6 @@ a {
 	text-shadow: 0 !important;
 }
 
-.mdl-header-title, .mdl-dismiss, .mdl-links, .mdl-links a {
-	color: #262626 !important;
-}
-
-.settings-modal .selected a {
-	color: #262626 !important;
-}
-
 .toggle-switch {
 	margin-bottom: 10px !important;
 }
@@ -258,6 +250,18 @@ a {
 .sprite-close {
 	background: url('chrome-extension://__MSG_@@extension_id__/img/close.png') !important;
 	background-position: 0px 0px !important;
+}
+
+.settings-modal li a {
+	color: #d0d0d3 !important;
+}
+
+.lst-group .selected, .lst-group .selected:hover {
+	background: #FFFFFF !important;
+}
+
+.settings-modal .selected a, .settings-modal .selected:hover a, .settings-modal li:hover {
+	color: #00A9DA !important;
 }
 
 /* Accounts */
