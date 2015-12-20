@@ -9,6 +9,9 @@ I've designed MetroDeck in a way that shouldn't break with future TweetDeck upda
 __TweetDeck is a trademark of Twitter, inc. MetroDeck is not affiliated with Twitter in any way. Due to a Chrome limitation, this does not work with the TweetDeck app for Chrome. Please use the web version (tweetdeck.twitter.com) instead.__
 
 ---------------------------------------------------------
+__New in MetroDeck 1.6:__
+* Updated to support TweetDeck 3.9.1123-052575c
+
 __New in MetroDeck 1.5:__
 * Updated to support TweetDeck 3.9.963-582e0b8
 * Updated to support Twitter likes
