@@ -6,18 +6,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 */
 
-/* TweetDeck 3.9.1123-052575c CSS */
+/* TweetDeck 4.0.160311143623-7b578a7 CSS */
 
-@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-dark.973951a7e6.css");
+@import url("https://ton.twimg.com/tweetdeck-web/web/css/app-dark.27a3feb151.css");
 
 /* MetroDeck CSS */
-
-@font-face {
-	font-family: 'Segoe';
-	src: url('chrome-extension://__MSG_@@extension_id__/fonts/segoe-ui-webfont.woff') format('woff'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/segoe-ui-webfont.ttf')  format('truetype'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/segoe-ui-webfont.svg') format('svg');
-}
 
 body {
 	font-family: 'Segoe' !important;
@@ -89,7 +82,7 @@ a {
 	box-shadow: none !important;
 }
 
-.app-title {
+.app-title, .nav-user-info {
 	display: none !important;
 }
 
